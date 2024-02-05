@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/mlruns/0/6aaa547d6c354c618684a63cc60fd6fc/artifacts
+end_time: 1707176075132
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6aaa547d6c354c618684a63cc60fd6fc
+run_name: wise-colt-675
+run_uuid: 6aaa547d6c354c618684a63cc60fd6fc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707176056714
+status: 3
+tags: []
+user_id: chessnerdbird
