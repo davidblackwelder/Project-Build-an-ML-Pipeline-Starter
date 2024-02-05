@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/mlruns/0/4d419bb981844a55b043cc9b4f416b3c/artifacts
+end_time: 1707177464492
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4d419bb981844a55b043cc9b4f416b3c
+run_name: big-donkey-555
+run_uuid: 4d419bb981844a55b043cc9b4f416b3c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707177448843
+status: 3
+tags: []
+user_id: chessnerdbird

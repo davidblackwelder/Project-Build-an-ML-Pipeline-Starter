@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/mlruns/0/d7ffec7f4c17424ebce0befdb6474228/artifacts
+end_time: 1707177464630
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d7ffec7f4c17424ebce0befdb6474228
+run_name: stylish-fly-190
+run_uuid: d7ffec7f4c17424ebce0befdb6474228
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707177446625
+status: 3
+tags: []
+user_id: chessnerdbird
