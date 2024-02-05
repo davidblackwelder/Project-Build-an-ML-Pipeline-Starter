@@ -1,0 +1,84 @@
+{
+    "os": "Linux-5.15.133.1-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "python": "3.9.15",
+    "heartbeatAt": "2024-02-05T23:38:34.014371",
+    "startedAt": "2024-02-05T23:38:33.204618",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "eda.ipynb",
+    "root": "/home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter",
+    "git": {
+        "remote": "git@github.com:davidblackwelder/Project-Build-an-ML-Pipeline-Starter.git",
+        "commit": "7225b40bb15415207f5f797b3d593efc2238285d"
+    },
+    "email": "github@davidblackwelder.com",
+    "host": "DESKTOP-FI8D0BM",
+    "username": "chessnerdbird",
+    "executable": "/home/chessnerdbird/miniconda3/envs/nyc_airbnb_dev/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 3000.01,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3000.01,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3000.01,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3000.01,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3000.01,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3000.01,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3000.01,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3000.01,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3000.01,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "total": 1006.853931427002,
+        "used": 17.302593231201172
+    },
+    "gpu": "NVIDIA GeForce RTX 2070 SUPER",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 2070 SUPER",
+            "memory_total": 8589934592
+        }
+    ],
+    "memory": {
+        "total": 15.58395767211914
+    }
+}
