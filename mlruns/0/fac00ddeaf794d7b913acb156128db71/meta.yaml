@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/mlruns/0/fac00ddeaf794d7b913acb156128db71/artifacts
+end_time: 1707210954113
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fac00ddeaf794d7b913acb156128db71
+run_name: calm-goose-196
+run_uuid: fac00ddeaf794d7b913acb156128db71
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707210930904
+status: 3
+tags: []
+user_id: chessnerdbird

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/mlruns/0/ddd4b2ddb4a94d3c8b88b542a310c14b/artifacts
+end_time: 1707210970901
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ddd4b2ddb4a94d3c8b88b542a310c14b
+run_name: adorable-stork-856
+run_uuid: ddd4b2ddb4a94d3c8b88b542a310c14b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707210906252
+status: 4
+tags: []
+user_id: chessnerdbird
