@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/mlruns/0/d4a37e9368c541259fee955eeb21225a/artifacts
+end_time: 1707208507451
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d4a37e9368c541259fee955eeb21225a
+run_name: rumbling-moth-649
+run_uuid: d4a37e9368c541259fee955eeb21225a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707208502226
+status: 4
+tags: []
+user_id: chessnerdbird

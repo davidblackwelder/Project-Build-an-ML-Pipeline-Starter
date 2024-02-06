@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/mlruns/0/2af7a368d3c54f7a80868916ad187b0c/artifacts
+end_time: 1707208222673
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2af7a368d3c54f7a80868916ad187b0c
+run_name: selective-squid-508
+run_uuid: 2af7a368d3c54f7a80868916ad187b0c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707208219939
+status: 4
+tags: []
+user_id: chessnerdbird
