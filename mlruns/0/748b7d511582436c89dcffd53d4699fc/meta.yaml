@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/mlruns/0/748b7d511582436c89dcffd53d4699fc/artifacts
+end_time: 1707178918836
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 748b7d511582436c89dcffd53d4699fc
+run_name: capable-wasp-242
+run_uuid: 748b7d511582436c89dcffd53d4699fc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707178917576
+status: 4
+tags: []
+user_id: chessnerdbird
