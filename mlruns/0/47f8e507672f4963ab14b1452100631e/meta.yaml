@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/mlruns/0/47f8e507672f4963ab14b1452100631e/artifacts
+end_time: 1707209806664
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 47f8e507672f4963ab14b1452100631e
+run_name: shivering-snail-31
+run_uuid: 47f8e507672f4963ab14b1452100631e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707209690452
+status: 3
+tags: []
+user_id: chessnerdbird

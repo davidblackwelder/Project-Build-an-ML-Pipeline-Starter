@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/mlruns/0/fda551e2de1b42638afac6a347645766/artifacts
+end_time: 1707209806814
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fda551e2de1b42638afac6a347645766
+run_name: redolent-swan-349
+run_uuid: fda551e2de1b42638afac6a347645766
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707209686259
+status: 3
+tags: []
+user_id: chessnerdbird
