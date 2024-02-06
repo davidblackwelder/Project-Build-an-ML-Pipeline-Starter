@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/mlruns/0/1f78b999f27d472c8235089550f9fa90/artifacts
+end_time: 1707179409697
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1f78b999f27d472c8235089550f9fa90
+run_name: gaudy-gnat-157
+run_uuid: 1f78b999f27d472c8235089550f9fa90
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707179407328
+status: 4
+tags: []
+user_id: chessnerdbird
