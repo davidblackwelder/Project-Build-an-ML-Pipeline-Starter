@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/mlruns/0/707e26b24cff4297bc3990fbd8d059a2/artifacts
+end_time: 1707208841182
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 707e26b24cff4297bc3990fbd8d059a2
+run_name: rogue-gnat-804
+run_uuid: 707e26b24cff4297bc3990fbd8d059a2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707208786513
+status: 3
+tags: []
+user_id: chessnerdbird

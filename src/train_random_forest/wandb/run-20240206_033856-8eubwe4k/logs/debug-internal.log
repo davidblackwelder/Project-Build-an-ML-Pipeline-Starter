@@ -1,0 +1,222 @@
+2024-02-06 03:38:56,224 INFO    StreamThr :10899 [internal.py:wandb_internal():87] W&B internal server running at pid: 10899, started at: 2024-02-06 03:38:56.223633
+2024-02-06 03:38:56,225 DEBUG   HandlerThread:10899 [handler.py:handle_request():144] handle_request: status
+2024-02-06 03:38:56,226 INFO    WriterThread:10899 [datastore.py:open_for_write():85] open: /home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240206_033856-8eubwe4k/run-8eubwe4k.wandb
+2024-02-06 03:38:56,227 DEBUG   SenderThread:10899 [sender.py:send():334] send: header
+2024-02-06 03:38:56,231 DEBUG   SenderThread:10899 [sender.py:send():334] send: run
+2024-02-06 03:38:56,690 INFO    SenderThread:10899 [dir_watcher.py:__init__():216] watching files in: /home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240206_033856-8eubwe4k/files
+2024-02-06 03:38:56,690 INFO    SenderThread:10899 [sender.py:_start_run_threads():1065] run started: 8eubwe4k with start time 1707208736.223288
+2024-02-06 03:38:56,691 DEBUG   SenderThread:10899 [sender.py:send_request():361] send_request: summary_record
+2024-02-06 03:38:56,691 INFO    SenderThread:10899 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-02-06 03:38:56,692 DEBUG   HandlerThread:10899 [handler.py:handle_request():144] handle_request: check_version
+2024-02-06 03:38:56,692 DEBUG   SenderThread:10899 [sender.py:send_request():361] send_request: check_version
+2024-02-06 03:38:56,899 DEBUG   HandlerThread:10899 [handler.py:handle_request():144] handle_request: run_start
+2024-02-06 03:38:56,928 DEBUG   HandlerThread:10899 [system_info.py:__init__():31] System info init
+2024-02-06 03:38:56,928 DEBUG   HandlerThread:10899 [system_info.py:__init__():46] System info init done
+2024-02-06 03:38:56,928 INFO    HandlerThread:10899 [system_monitor.py:start():151] Starting system monitor
+2024-02-06 03:38:56,928 INFO    SystemMonitor:10899 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2024-02-06 03:38:56,928 INFO    HandlerThread:10899 [system_monitor.py:probe():172] Collecting system info
+2024-02-06 03:38:56,929 INFO    SystemMonitor:10899 [interfaces.py:start():168] Started cpu
+2024-02-06 03:38:56,930 INFO    SystemMonitor:10899 [interfaces.py:start():168] Started disk
+2024-02-06 03:38:56,931 INFO    SystemMonitor:10899 [interfaces.py:start():168] Started gpu
+2024-02-06 03:38:56,932 INFO    SystemMonitor:10899 [interfaces.py:start():168] Started memory
+2024-02-06 03:38:56,932 INFO    SystemMonitor:10899 [interfaces.py:start():168] Started network
+2024-02-06 03:38:56,947 DEBUG   HandlerThread:10899 [system_info.py:probe():195] Probing system
+2024-02-06 03:38:57,006 DEBUG   HandlerThread:10899 [system_info.py:_probe_git():180] Probing git
+2024-02-06 03:38:57,012 DEBUG   HandlerThread:10899 [system_info.py:_probe_git():188] Probing git done
+2024-02-06 03:38:57,012 DEBUG   HandlerThread:10899 [system_info.py:probe():241] Probing system done
+2024-02-06 03:38:57,012 DEBUG   HandlerThread:10899 [system_monitor.py:probe():181] {'os': 'Linux-5.15.133.1-microsoft-standard-WSL2-x86_64-with-glibc2.35', 'python': '3.9.18', 'heartbeatAt': '2024-02-06T08:38:56.947761', 'startedAt': '2024-02-06T08:38:56.217224', 'docker': None, 'cuda': None, 'args': ('--trainval_artifact', 'trainval_data.csv:latest', '--val_size', '0.2', '--random_seed', '42', '--stratify_by', 'neighbourhood_group', '--rf_config', '/home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/multirun/2024-02-06/03-38-14/1/rf_config.json', '--max_tfidf_features', '5', '--output_artifact', 'random_forest_export'), 'state': 'running', 'program': '/home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py', 'codePath': 'src/train_random_forest/run.py', 'git': {'remote': 'git@github.com:davidblackwelder/Project-Build-an-ML-Pipeline-Starter.git', 'commit': 'd4c254a222bf46866a7e6a793289d661384f8d1f'}, 'email': 'github@davidblackwelder.com', 'root': '/home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter', 'host': 'DESKTOP-FI8D0BM', 'username': 'chessnerdbird', 'executable': '/home/chessnerdbird/miniconda3/envs/mlflow-d6c04384fb9356865b6d231fc3cbd1b1b9b4863e/bin/python', 'cpu_count': 8, 'cpu_count_logical': 8, 'cpu_freq': {'current': 3000.01, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 3000.01, 'min': 0.0, 'max': 0.0}, {'current': 3000.01, 'min': 0.0, 'max': 0.0}, {'current': 3000.01, 'min': 0.0, 'max': 0.0}, {'current': 3000.01, 'min': 0.0, 'max': 0.0}, {'current': 3000.01, 'min': 0.0, 'max': 0.0}, {'current': 3000.01, 'min': 0.0, 'max': 0.0}, {'current': 3000.01, 'min': 0.0, 'max': 0.0}, {'current': 3000.01, 'min': 0.0, 'max': 0.0}], 'disk': {'total': 1006.853931427002, 'used': 19.693683624267578}, 'gpu': 'NVIDIA GeForce RTX 2070 SUPER', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 2070 SUPER', 'memory_total': 8589934592}], 'memory': {'total': 15.58395767211914}}
+2024-02-06 03:38:57,012 INFO    HandlerThread:10899 [system_monitor.py:probe():182] Finished collecting system info
+2024-02-06 03:38:57,012 INFO    HandlerThread:10899 [system_monitor.py:probe():185] Publishing system info
+2024-02-06 03:38:57,012 DEBUG   HandlerThread:10899 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2024-02-06 03:38:57,012 DEBUG   HandlerThread:10899 [system_info.py:_save_pip():67] Saving pip packages done
+2024-02-06 03:38:57,012 DEBUG   HandlerThread:10899 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2024-02-06 03:38:57,691 INFO    Thread-14 :10899 [dir_watcher.py:_on_file_created():275] file/dir created: /home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240206_033856-8eubwe4k/files/requirements.txt
+2024-02-06 03:38:57,691 INFO    Thread-14 :10899 [dir_watcher.py:_on_file_created():275] file/dir created: /home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240206_033856-8eubwe4k/files/wandb-summary.json
+2024-02-06 03:38:57,692 INFO    Thread-14 :10899 [dir_watcher.py:_on_file_created():275] file/dir created: /home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240206_033856-8eubwe4k/files/conda-environment.yaml
+2024-02-06 03:38:58,524 DEBUG   HandlerThread:10899 [system_info.py:_save_conda():86] Saving conda packages done
+2024-02-06 03:38:58,524 INFO    HandlerThread:10899 [system_monitor.py:probe():187] Finished publishing system info
+2024-02-06 03:38:58,526 DEBUG   SenderThread:10899 [sender.py:send():334] send: files
+2024-02-06 03:38:58,526 INFO    SenderThread:10899 [sender.py:_save_file():1319] saving file wandb-metadata.json with policy now
+2024-02-06 03:38:58,530 DEBUG   HandlerThread:10899 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-06 03:38:58,531 DEBUG   SenderThread:10899 [sender.py:send_request():361] send_request: stop_status
+2024-02-06 03:38:58,690 INFO    Thread-14 :10899 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240206_033856-8eubwe4k/files/conda-environment.yaml
+2024-02-06 03:38:58,691 INFO    Thread-14 :10899 [dir_watcher.py:_on_file_created():275] file/dir created: /home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240206_033856-8eubwe4k/files/wandb-metadata.json
+2024-02-06 03:38:59,058 INFO    Thread-17 :10899 [upload_job.py:push():143] Uploaded file /tmp/tmpl6ybw6oawandb/vqj2v10d-wandb-metadata.json
+2024-02-06 03:38:59,110 DEBUG   SenderThread:10899 [sender.py:send():334] send: telemetry
+2024-02-06 03:38:59,110 DEBUG   SenderThread:10899 [sender.py:send():334] send: config
+2024-02-06 03:38:59,110 DEBUG   SenderThread:10899 [sender.py:send():334] send: config
+2024-02-06 03:38:59,482 DEBUG   SenderThread:10899 [sender.py:send():334] send: use_artifact
+2024-02-06 03:39:00,692 INFO    Thread-14 :10899 [dir_watcher.py:_on_file_created():275] file/dir created: /home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240206_033856-8eubwe4k/files/output.log
+2024-02-06 03:39:02,000 DEBUG   HandlerThread:10899 [handler.py:handle_request():144] handle_request: status_report
+2024-02-06 03:39:02,692 INFO    Thread-14 :10899 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240206_033856-8eubwe4k/files/output.log
+2024-02-06 03:39:07,000 DEBUG   HandlerThread:10899 [handler.py:handle_request():144] handle_request: status_report
+2024-02-06 03:39:12,001 DEBUG   HandlerThread:10899 [handler.py:handle_request():144] handle_request: status_report
+2024-02-06 03:39:13,530 DEBUG   HandlerThread:10899 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-06 03:39:17,002 DEBUG   HandlerThread:10899 [handler.py:handle_request():144] handle_request: status_report
+2024-02-06 03:39:18,530 DEBUG   HandlerThread:10899 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-06 03:39:22,002 DEBUG   HandlerThread:10899 [handler.py:handle_request():144] handle_request: status_report
+2024-02-06 03:39:23,531 DEBUG   HandlerThread:10899 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-06 03:39:27,885 DEBUG   HandlerThread:10899 [handler.py:handle_request():144] handle_request: status_report
+2024-02-06 03:39:28,341 DEBUG   HandlerThread:10899 [handler.py:handle_request():144] handle_request: log_artifact
+2024-02-06 03:39:28,341 DEBUG   SenderThread:10899 [sender.py:send_request():361] send_request: log_artifact
+2024-02-06 03:39:28,532 DEBUG   HandlerThread:10899 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-06 03:39:28,538 DEBUG   HandlerThread:10899 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-06 03:39:28,700 INFO    Thread-14 :10899 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240206_033856-8eubwe4k/files/config.yaml
+2024-02-06 03:39:28,700 INFO    Thread-14 :10899 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240206_033856-8eubwe4k/files/output.log
+2024-02-06 03:39:29,263 DEBUG   HandlerThread:10899 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-06 03:39:29,701 INFO    Thread-14 :10899 [dir_watcher.py:_on_file_created():275] file/dir created: /home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240206_033856-8eubwe4k/files/media/images/feature_importance_0_87f735df84d8b09c948d.png
+2024-02-06 03:39:29,701 INFO    Thread-14 :10899 [dir_watcher.py:_on_file_created():275] file/dir created: /home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240206_033856-8eubwe4k/files/media/images
+2024-02-06 03:39:29,701 INFO    Thread-14 :10899 [dir_watcher.py:_on_file_created():275] file/dir created: /home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240206_033856-8eubwe4k/files/media
+2024-02-06 03:39:29,734 INFO    Thread-20 :10899 [upload_job.py:push():98] Skipped uploading /home/chessnerdbird/.local/share/wandb/artifacts/staging/tmpvmw881wv
+2024-02-06 03:39:29,735 INFO    Thread-23 :10899 [upload_job.py:push():98] Skipped uploading /home/chessnerdbird/.local/share/wandb/artifacts/staging/tmpvoeccinf
+2024-02-06 03:39:29,735 INFO    Thread-24 :10899 [upload_job.py:push():98] Skipped uploading /home/chessnerdbird/.local/share/wandb/artifacts/staging/tmp4d59jx_p
+2024-02-06 03:39:29,735 INFO    Thread-21 :10899 [upload_job.py:push():98] Skipped uploading /home/chessnerdbird/.local/share/wandb/artifacts/staging/tmp6v55w_bd
+2024-02-06 03:39:30,069 INFO    Thread-19 :10899 [upload_job.py:push():101] Uploaded file /home/chessnerdbird/.local/share/wandb/artifacts/staging/tmp5y3p2r_v
+2024-02-06 03:39:30,266 DEBUG   HandlerThread:10899 [handler.py:handle_request():144] handle_request: poll_exit
+2024-02-06 03:39:30,389 INFO    Thread-25 :10899 [upload_job.py:push():143] Uploaded file /tmp/tmpl6ybw6oawandb/3dpc1yq6-media/images/feature_importance_0_87f735df84d8b09c948d.png
+2024-02-06 03:39:30,701 INFO    Thread-14 :10899 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240206_033856-8eubwe4k/files/output.log
+2024-02-06 03:39:35,268 DEBUG   HandlerThread:10899 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-06 03:39:39,030 INFO    Thread-22 :10899 [upload_job.py:push():101] Uploaded file /home/chessnerdbird/.local/share/wandb/artifacts/staging/tmpxyxm3l7x
+2024-02-06 03:39:39,992 INFO    SenderThread:10899 [sender.py:send_request_log_artifact():1379] logged artifact random_forest_export - {'id': 'QXJ0aWZhY3Q6NzE0OTkxOTE1', 'digest': 'd9da2fd7c6fb02d66eebb3043cc9168b', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEzNzQ4NTY1Mg==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NzE0OTkxMzYw', 'versionIndex': 0}}, 'version': 'latest'}
+2024-02-06 03:39:39,992 DEBUG   SenderThread:10899 [sender.py:send_request():361] send_request: summary_record
+2024-02-06 03:39:39,993 DEBUG   HandlerThread:10899 [handler.py:handle_request():144] handle_request: status_report
+2024-02-06 03:39:39,993 INFO    SenderThread:10899 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-02-06 03:39:39,994 DEBUG   SenderThread:10899 [sender.py:send_request():361] send_request: summary_record
+2024-02-06 03:39:39,994 INFO    SenderThread:10899 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-02-06 03:39:39,994 DEBUG   SenderThread:10899 [sender.py:send():334] send: files
+2024-02-06 03:39:39,994 INFO    SenderThread:10899 [sender.py:_save_file():1319] saving file media/images/feature_importance_0_87f735df84d8b09c948d.png with policy now
+2024-02-06 03:39:39,994 DEBUG   SenderThread:10899 [sender.py:send():334] send: history
+2024-02-06 03:39:39,995 DEBUG   SenderThread:10899 [sender.py:send_request():361] send_request: summary_record
+2024-02-06 03:39:39,995 INFO    SenderThread:10899 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-02-06 03:39:39,995 DEBUG   SenderThread:10899 [sender.py:send():334] send: exit
+2024-02-06 03:39:39,995 INFO    SenderThread:10899 [sender.py:send_exit():557] handling exit code: 0
+2024-02-06 03:39:39,995 INFO    SenderThread:10899 [sender.py:send_exit():559] handling runtime: 32
+2024-02-06 03:39:39,998 INFO    SenderThread:10899 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-02-06 03:39:39,998 INFO    SenderThread:10899 [sender.py:send_exit():565] send defer
+2024-02-06 03:39:39,998 DEBUG   SenderThread:10899 [sender.py:send_request():361] send_request: poll_exit
+2024-02-06 03:39:39,998 DEBUG   HandlerThread:10899 [handler.py:handle_request():144] handle_request: defer
+2024-02-06 03:39:39,998 INFO    HandlerThread:10899 [handler.py:handle_request_defer():170] handle defer: 0
+2024-02-06 03:39:39,999 DEBUG   SenderThread:10899 [sender.py:send_request():361] send_request: defer
+2024-02-06 03:39:39,999 INFO    SenderThread:10899 [sender.py:send_request_defer():581] handle sender defer: 0
+2024-02-06 03:39:39,999 INFO    SenderThread:10899 [sender.py:transition_state():585] send defer: 1
+2024-02-06 03:39:39,999 DEBUG   HandlerThread:10899 [handler.py:handle_request():144] handle_request: defer
+2024-02-06 03:39:39,999 INFO    HandlerThread:10899 [handler.py:handle_request_defer():170] handle defer: 1
+2024-02-06 03:39:39,999 DEBUG   SenderThread:10899 [sender.py:send_request():361] send_request: defer
+2024-02-06 03:39:39,999 INFO    SenderThread:10899 [sender.py:send_request_defer():581] handle sender defer: 1
+2024-02-06 03:39:39,999 INFO    SenderThread:10899 [sender.py:transition_state():585] send defer: 2
+2024-02-06 03:39:39,999 DEBUG   HandlerThread:10899 [handler.py:handle_request():144] handle_request: defer
+2024-02-06 03:39:39,999 INFO    HandlerThread:10899 [handler.py:handle_request_defer():170] handle defer: 2
+2024-02-06 03:39:39,999 INFO    HandlerThread:10899 [system_monitor.py:finish():161] Stopping system monitor
+2024-02-06 03:39:40,000 DEBUG   SystemMonitor:10899 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2024-02-06 03:39:40,001 DEBUG   SystemMonitor:10899 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2024-02-06 03:39:40,001 DEBUG   SystemMonitor:10899 [system_monitor.py:_start():141] Publishing last batch of metrics
+2024-02-06 03:39:40,001 INFO    HandlerThread:10899 [interfaces.py:finish():175] Joined cpu
+2024-02-06 03:39:40,002 INFO    HandlerThread:10899 [interfaces.py:finish():175] Joined disk
+2024-02-06 03:39:40,008 INFO    HandlerThread:10899 [interfaces.py:finish():175] Joined gpu
+2024-02-06 03:39:40,008 INFO    HandlerThread:10899 [interfaces.py:finish():175] Joined memory
+2024-02-06 03:39:40,008 INFO    HandlerThread:10899 [interfaces.py:finish():175] Joined network
+2024-02-06 03:39:40,009 DEBUG   SenderThread:10899 [sender.py:send_request():361] send_request: defer
+2024-02-06 03:39:40,009 INFO    SenderThread:10899 [sender.py:send_request_defer():581] handle sender defer: 2
+2024-02-06 03:39:40,009 INFO    SenderThread:10899 [sender.py:transition_state():585] send defer: 3
+2024-02-06 03:39:40,009 DEBUG   SenderThread:10899 [sender.py:send():334] send: stats
+2024-02-06 03:39:40,009 DEBUG   HandlerThread:10899 [handler.py:handle_request():144] handle_request: defer
+2024-02-06 03:39:40,009 INFO    HandlerThread:10899 [handler.py:handle_request_defer():170] handle defer: 3
+2024-02-06 03:39:40,009 DEBUG   SenderThread:10899 [sender.py:send_request():361] send_request: defer
+2024-02-06 03:39:40,009 INFO    SenderThread:10899 [sender.py:send_request_defer():581] handle sender defer: 3
+2024-02-06 03:39:40,009 INFO    SenderThread:10899 [sender.py:transition_state():585] send defer: 4
+2024-02-06 03:39:40,009 DEBUG   HandlerThread:10899 [handler.py:handle_request():144] handle_request: defer
+2024-02-06 03:39:40,009 INFO    HandlerThread:10899 [handler.py:handle_request_defer():170] handle defer: 4
+2024-02-06 03:39:40,010 DEBUG   SenderThread:10899 [sender.py:send_request():361] send_request: defer
+2024-02-06 03:39:40,010 INFO    SenderThread:10899 [sender.py:send_request_defer():581] handle sender defer: 4
+2024-02-06 03:39:40,010 INFO    SenderThread:10899 [sender.py:transition_state():585] send defer: 5
+2024-02-06 03:39:40,010 DEBUG   HandlerThread:10899 [handler.py:handle_request():144] handle_request: defer
+2024-02-06 03:39:40,010 INFO    HandlerThread:10899 [handler.py:handle_request_defer():170] handle defer: 5
+2024-02-06 03:39:40,010 DEBUG   SenderThread:10899 [sender.py:send():334] send: summary
+2024-02-06 03:39:40,010 INFO    SenderThread:10899 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-02-06 03:39:40,010 DEBUG   SenderThread:10899 [sender.py:send_request():361] send_request: defer
+2024-02-06 03:39:40,010 INFO    SenderThread:10899 [sender.py:send_request_defer():581] handle sender defer: 5
+2024-02-06 03:39:40,010 INFO    SenderThread:10899 [sender.py:transition_state():585] send defer: 6
+2024-02-06 03:39:40,011 DEBUG   HandlerThread:10899 [handler.py:handle_request():144] handle_request: defer
+2024-02-06 03:39:40,011 INFO    HandlerThread:10899 [handler.py:handle_request_defer():170] handle defer: 6
+2024-02-06 03:39:40,011 DEBUG   SenderThread:10899 [sender.py:send_request():361] send_request: defer
+2024-02-06 03:39:40,011 INFO    SenderThread:10899 [sender.py:send_request_defer():581] handle sender defer: 6
+2024-02-06 03:39:40,011 INFO    SenderThread:10899 [sender.py:transition_state():585] send defer: 7
+2024-02-06 03:39:40,011 DEBUG   HandlerThread:10899 [handler.py:handle_request():144] handle_request: status_report
+2024-02-06 03:39:40,011 DEBUG   HandlerThread:10899 [handler.py:handle_request():144] handle_request: defer
+2024-02-06 03:39:40,011 INFO    HandlerThread:10899 [handler.py:handle_request_defer():170] handle defer: 7
+2024-02-06 03:39:40,011 DEBUG   SenderThread:10899 [sender.py:send_request():361] send_request: defer
+2024-02-06 03:39:40,012 INFO    SenderThread:10899 [sender.py:send_request_defer():581] handle sender defer: 7
+2024-02-06 03:39:40,039 INFO    SenderThread:10899 [sender.py:transition_state():585] send defer: 8
+2024-02-06 03:39:40,040 DEBUG   HandlerThread:10899 [handler.py:handle_request():144] handle_request: defer
+2024-02-06 03:39:40,040 INFO    HandlerThread:10899 [handler.py:handle_request_defer():170] handle defer: 8
+2024-02-06 03:39:40,040 DEBUG   SenderThread:10899 [sender.py:send_request():361] send_request: defer
+2024-02-06 03:39:40,040 INFO    SenderThread:10899 [sender.py:send_request_defer():581] handle sender defer: 8
+2024-02-06 03:39:40,045 INFO    SenderThread:10899 [sender.py:transition_state():585] send defer: 9
+2024-02-06 03:39:40,045 DEBUG   HandlerThread:10899 [handler.py:handle_request():144] handle_request: defer
+2024-02-06 03:39:40,045 INFO    HandlerThread:10899 [handler.py:handle_request_defer():170] handle defer: 9
+2024-02-06 03:39:40,045 DEBUG   SenderThread:10899 [sender.py:send():334] send: artifact
+2024-02-06 03:39:40,269 DEBUG   HandlerThread:10899 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-06 03:39:40,704 INFO    Thread-14 :10899 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240206_033856-8eubwe4k/files/wandb-summary.json
+2024-02-06 03:39:40,704 INFO    Thread-14 :10899 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240206_033856-8eubwe4k/files/output.log
+2024-02-06 03:39:40,827 INFO    Thread-26 :10899 [upload_job.py:push():143] Uploaded file /tmp/tmpl6ybw6oawandb/g6x1rge1-media/images/feature_importance_0_87f735df84d8b09c948d.png
+2024-02-06 03:39:41,056 INFO    SenderThread:10899 [sender.py:send_artifact():1415] sent artifact job-git_github.com_davidblackwelder_Project-Build-an-ML-Pipeline-Starter.git_src_train_random_forest_run.py - {'id': 'QXJ0aWZhY3Q6NzE0OTkxNDU5', 'digest': '9f4d496a14eed29052132fd0213d68e7', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'job-git_github.com_davidblackwelder_Project-Build-an-ML-Pipeline-Starter.git_src_train_random_forest_run.py', 'alias': 'v0'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEzNzQ4NTY2Ng==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NzE0OTkxNDU5', 'versionIndex': 0}}, 'version': 'v0'}
+2024-02-06 03:39:41,056 DEBUG   SenderThread:10899 [sender.py:send_request():361] send_request: defer
+2024-02-06 03:39:41,056 INFO    SenderThread:10899 [sender.py:send_request_defer():581] handle sender defer: 9
+2024-02-06 03:39:41,056 INFO    SenderThread:10899 [dir_watcher.py:finish():362] shutting down directory watcher
+2024-02-06 03:39:41,705 INFO    SenderThread:10899 [dir_watcher.py:finish():392] scan: /home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240206_033856-8eubwe4k/files
+2024-02-06 03:39:41,706 INFO    SenderThread:10899 [dir_watcher.py:finish():406] scan save: /home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240206_033856-8eubwe4k/files/wandb-metadata.json wandb-metadata.json
+2024-02-06 03:39:41,706 INFO    SenderThread:10899 [dir_watcher.py:finish():406] scan save: /home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240206_033856-8eubwe4k/files/output.log output.log
+2024-02-06 03:39:41,706 INFO    SenderThread:10899 [dir_watcher.py:finish():406] scan save: /home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240206_033856-8eubwe4k/files/conda-environment.yaml conda-environment.yaml
+2024-02-06 03:39:41,706 INFO    SenderThread:10899 [dir_watcher.py:finish():406] scan save: /home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240206_033856-8eubwe4k/files/requirements.txt requirements.txt
+2024-02-06 03:39:41,706 INFO    SenderThread:10899 [dir_watcher.py:finish():406] scan save: /home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240206_033856-8eubwe4k/files/wandb-summary.json wandb-summary.json
+2024-02-06 03:39:41,706 INFO    SenderThread:10899 [dir_watcher.py:finish():406] scan save: /home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240206_033856-8eubwe4k/files/config.yaml config.yaml
+2024-02-06 03:39:41,706 INFO    SenderThread:10899 [dir_watcher.py:finish():406] scan save: /home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240206_033856-8eubwe4k/files/media/images/feature_importance_0_87f735df84d8b09c948d.png media/images/feature_importance_0_87f735df84d8b09c948d.png
+2024-02-06 03:39:41,706 INFO    SenderThread:10899 [sender.py:transition_state():585] send defer: 10
+2024-02-06 03:39:41,707 DEBUG   HandlerThread:10899 [handler.py:handle_request():144] handle_request: defer
+2024-02-06 03:39:41,707 INFO    HandlerThread:10899 [handler.py:handle_request_defer():170] handle defer: 10
+2024-02-06 03:39:41,713 DEBUG   SenderThread:10899 [sender.py:send_request():361] send_request: defer
+2024-02-06 03:39:41,713 INFO    SenderThread:10899 [sender.py:send_request_defer():581] handle sender defer: 10
+2024-02-06 03:39:41,713 INFO    SenderThread:10899 [file_pusher.py:finish():160] shutting down file pusher
+2024-02-06 03:39:42,373 INFO    Thread-27 :10899 [upload_job.py:push():143] Uploaded file /home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240206_033856-8eubwe4k/files/output.log
+2024-02-06 03:39:42,904 INFO    Thread-30 :10899 [upload_job.py:push():143] Uploaded file /home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240206_033856-8eubwe4k/files/wandb-summary.json
+2024-02-06 03:39:42,942 INFO    Thread-28 :10899 [upload_job.py:push():143] Uploaded file /home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240206_033856-8eubwe4k/files/conda-environment.yaml
+2024-02-06 03:39:42,953 INFO    Thread-31 :10899 [upload_job.py:push():143] Uploaded file /home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240206_033856-8eubwe4k/files/config.yaml
+2024-02-06 03:39:43,981 INFO    Thread-29 :10899 [upload_job.py:push():143] Uploaded file /home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240206_033856-8eubwe4k/files/requirements.txt
+2024-02-06 03:39:44,182 INFO    Thread-13 :10899 [sender.py:transition_state():585] send defer: 11
+2024-02-06 03:39:44,182 DEBUG   HandlerThread:10899 [handler.py:handle_request():144] handle_request: defer
+2024-02-06 03:39:44,182 INFO    HandlerThread:10899 [handler.py:handle_request_defer():170] handle defer: 11
+2024-02-06 03:39:44,182 DEBUG   SenderThread:10899 [sender.py:send_request():361] send_request: defer
+2024-02-06 03:39:44,182 INFO    SenderThread:10899 [sender.py:send_request_defer():581] handle sender defer: 11
+2024-02-06 03:39:44,182 INFO    SenderThread:10899 [file_pusher.py:join():165] waiting for file pusher
+2024-02-06 03:39:44,182 INFO    SenderThread:10899 [sender.py:transition_state():585] send defer: 12
+2024-02-06 03:39:44,182 DEBUG   HandlerThread:10899 [handler.py:handle_request():144] handle_request: defer
+2024-02-06 03:39:44,182 INFO    HandlerThread:10899 [handler.py:handle_request_defer():170] handle defer: 12
+2024-02-06 03:39:44,183 DEBUG   SenderThread:10899 [sender.py:send_request():361] send_request: defer
+2024-02-06 03:39:44,183 INFO    SenderThread:10899 [sender.py:send_request_defer():581] handle sender defer: 12
+2024-02-06 03:39:44,267 INFO    SenderThread:10899 [sender.py:transition_state():585] send defer: 13
+2024-02-06 03:39:44,267 DEBUG   HandlerThread:10899 [handler.py:handle_request():144] handle_request: defer
+2024-02-06 03:39:44,267 INFO    HandlerThread:10899 [handler.py:handle_request_defer():170] handle defer: 13
+2024-02-06 03:39:44,268 DEBUG   SenderThread:10899 [sender.py:send_request():361] send_request: defer
+2024-02-06 03:39:44,268 INFO    SenderThread:10899 [sender.py:send_request_defer():581] handle sender defer: 13
+2024-02-06 03:39:44,268 INFO    SenderThread:10899 [sender.py:transition_state():585] send defer: 14
+2024-02-06 03:39:44,268 DEBUG   SenderThread:10899 [sender.py:send():334] send: final
+2024-02-06 03:39:44,268 DEBUG   SenderThread:10899 [sender.py:send():334] send: footer
+2024-02-06 03:39:44,268 DEBUG   HandlerThread:10899 [handler.py:handle_request():144] handle_request: defer
+2024-02-06 03:39:44,268 INFO    HandlerThread:10899 [handler.py:handle_request_defer():170] handle defer: 14
+2024-02-06 03:39:44,268 DEBUG   SenderThread:10899 [sender.py:send_request():361] send_request: defer
+2024-02-06 03:39:44,269 INFO    SenderThread:10899 [sender.py:send_request_defer():581] handle sender defer: 14
+2024-02-06 03:39:44,269 DEBUG   HandlerThread:10899 [handler.py:handle_request():144] handle_request: poll_exit
+2024-02-06 03:39:44,269 DEBUG   HandlerThread:10899 [handler.py:handle_request():144] handle_request: server_info
+2024-02-06 03:39:44,269 DEBUG   HandlerThread:10899 [handler.py:handle_request():144] handle_request: get_summary
+2024-02-06 03:39:44,269 DEBUG   HandlerThread:10899 [handler.py:handle_request():144] handle_request: sampled_history
+2024-02-06 03:39:44,270 DEBUG   SenderThread:10899 [sender.py:send_request():361] send_request: poll_exit
+2024-02-06 03:39:44,270 DEBUG   SenderThread:10899 [sender.py:send_request():361] send_request: server_info
+2024-02-06 03:39:44,484 INFO    MainThread:10899 [wandb_run.py:_footer_history_summary_info():3427] rendering history
+2024-02-06 03:39:44,484 INFO    MainThread:10899 [wandb_run.py:_footer_history_summary_info():3459] rendering summary
+2024-02-06 03:39:44,485 INFO    MainThread:10899 [wandb_run.py:_footer_sync_info():3383] logging synced files
+2024-02-06 03:39:44,485 DEBUG   HandlerThread:10899 [handler.py:handle_request():144] handle_request: shutdown
+2024-02-06 03:39:44,485 INFO    HandlerThread:10899 [handler.py:finish():841] shutting down handler
+2024-02-06 03:39:45,270 INFO    WriterThread:10899 [datastore.py:close():299] close: /home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240206_033856-8eubwe4k/run-8eubwe4k.wandb
+2024-02-06 03:39:45,484 INFO    SenderThread:10899 [sender.py:finish():1491] shutting down sender
+2024-02-06 03:39:45,485 INFO    SenderThread:10899 [file_pusher.py:finish():160] shutting down file pusher
+2024-02-06 03:39:45,485 INFO    SenderThread:10899 [file_pusher.py:join():165] waiting for file pusher

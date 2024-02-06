@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/mlruns/0/12fdc701d97e48cc9baa9e2563e359ec/artifacts
+end_time: 1707208923710
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 12fdc701d97e48cc9baa9e2563e359ec
+run_name: clumsy-shad-581
+run_uuid: 12fdc701d97e48cc9baa9e2563e359ec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707208841305
+status: 3
+tags: []
+user_id: chessnerdbird

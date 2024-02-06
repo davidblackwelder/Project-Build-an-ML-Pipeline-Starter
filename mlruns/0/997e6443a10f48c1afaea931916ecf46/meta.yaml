@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/mlruns/0/997e6443a10f48c1afaea931916ecf46/artifacts
+end_time: 1707208732275
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 997e6443a10f48c1afaea931916ecf46
+run_name: able-asp-665
+run_uuid: 997e6443a10f48c1afaea931916ecf46
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707208695137
+status: 3
+tags: []
+user_id: chessnerdbird

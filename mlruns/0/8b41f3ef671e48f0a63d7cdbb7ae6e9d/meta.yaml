@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/mlruns/0/8b41f3ef671e48f0a63d7cdbb7ae6e9d/artifacts
+end_time: 1707208786387
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8b41f3ef671e48f0a63d7cdbb7ae6e9d
+run_name: polite-sow-499
+run_uuid: 8b41f3ef671e48f0a63d7cdbb7ae6e9d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707208732397
+status: 3
+tags: []
+user_id: chessnerdbird
