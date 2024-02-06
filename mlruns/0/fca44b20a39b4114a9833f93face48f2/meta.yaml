@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/mlruns/0/fca44b20a39b4114a9833f93face48f2/artifacts
+end_time: 1707180810902
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fca44b20a39b4114a9833f93face48f2
+run_name: luxuriant-mare-383
+run_uuid: fca44b20a39b4114a9833f93face48f2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707180706458
+status: 4
+tags: []
+user_id: chessnerdbird

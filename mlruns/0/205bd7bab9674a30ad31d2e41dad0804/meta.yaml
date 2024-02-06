@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/mlruns/0/205bd7bab9674a30ad31d2e41dad0804/artifacts
+end_time: 1707180811133
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 205bd7bab9674a30ad31d2e41dad0804
+run_name: worried-steed-146
+run_uuid: 205bd7bab9674a30ad31d2e41dad0804
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707180703801
+status: 4
+tags: []
+user_id: chessnerdbird
