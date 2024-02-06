@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/mlruns/0/771fe7facb8d442d839ef5bb5846a27e/artifacts
+end_time: 1707211270394
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 771fe7facb8d442d839ef5bb5846a27e
+run_name: ambitious-vole-735
+run_uuid: 771fe7facb8d442d839ef5bb5846a27e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707211250211
+status: 3
+tags: []
+user_id: chessnerdbird

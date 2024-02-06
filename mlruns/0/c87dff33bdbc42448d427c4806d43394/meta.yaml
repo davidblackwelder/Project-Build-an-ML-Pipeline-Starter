@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/mlruns/0/c87dff33bdbc42448d427c4806d43394/artifacts
+end_time: 1707211281818
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c87dff33bdbc42448d427c4806d43394
+run_name: crawling-ram-531
+run_uuid: c87dff33bdbc42448d427c4806d43394
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707211270403
+status: 3
+tags: []
+user_id: chessnerdbird

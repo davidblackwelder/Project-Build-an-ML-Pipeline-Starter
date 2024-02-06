@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/mlruns/0/d10cea7c7f864cfa8c24b1f9a7cd0897/artifacts
+end_time: 1707211308013
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d10cea7c7f864cfa8c24b1f9a7cd0897
+run_name: mercurial-crane-774
+run_uuid: d10cea7c7f864cfa8c24b1f9a7cd0897
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707211283746
+status: 3
+tags: []
+user_id: chessnerdbird

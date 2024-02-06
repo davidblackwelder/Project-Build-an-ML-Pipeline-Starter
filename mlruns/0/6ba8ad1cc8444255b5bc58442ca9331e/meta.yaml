@@ -1,0 +1,15 @@
+artifact_uri: file:///home/chessnerdbird/Projects/udacity/Project-Build-an-ML-Pipeline-Starter/mlruns/0/6ba8ad1cc8444255b5bc58442ca9331e/artifacts
+end_time: 1707211604884
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6ba8ad1cc8444255b5bc58442ca9331e
+run_name: able-foal-311
+run_uuid: 6ba8ad1cc8444255b5bc58442ca9331e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707211233460
+status: 3
+tags: []
+user_id: chessnerdbird
